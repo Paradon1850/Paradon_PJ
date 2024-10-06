@@ -1,0 +1,7 @@
+<?php
+date_default_timezone_set('Asia/Bangkok'); // คุณสามารถเปลี่ยนเป็น time zone ที่ต้องการ
+
+$current_time = date('Y-m-d H:i:s');
+
+echo "เวลาปัจจุบันใน time zone " . date_default_timezone_get() . " คือ: " . $current_time;
+?>
